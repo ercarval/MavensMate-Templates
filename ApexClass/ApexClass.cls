@@ -1,4 +1,7 @@
-public with sharing class {{ api_name }} {
+/**
+ * @author: {{ author }}
+ */
+public class {{ api_name }} {
 	public {{ api_name }}() {
 		
 	}
