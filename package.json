@@ -10,6 +10,10 @@
                     "name":"api_name",
                     "description":"Apex Class API Name",
                     "default":"MyApexClass"
+                },
+                {
+                    "name":"author",
+                    "description": "Class Author"
                 }
             ]
         },
