@@ -1,9 +1,9 @@
 /**
  * @author: {{ author }}
  */
-public virtual class {{ entityName }}Repository extends AbstractRepository {
+public virtual class {{ api_name }}Repository extends AbstractRepository {
 
-    public {{ entityName }}Repository () {
+    public {{ api_name }}Repository () {
     }
 
 }

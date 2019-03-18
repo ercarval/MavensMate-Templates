@@ -2,7 +2,7 @@
  * @see Filter
  * @author: {{ author }}
  */
-public class {{ className }}Filter extends Filter {
+public class {{ api_name }}Filter extends Filter {
 
     public static Map<String, Account> index{{ object_type }}ById (List<{{ object_type }}> records) {
 
