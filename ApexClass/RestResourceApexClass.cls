@@ -1,10 +1,14 @@
+/**
+ * @author: {{ author }}
+ */
 @RestResource(urlMapping='/{{ url }}')
 global with sharing class {{ api_name }}  {
 
-    @HttpGet
-    global static {{ object_name }} show() {
 
-        {{ object_name }} obj;
+    @HttpGet
+    global static {{ returnType }} show() {
+
+        {{ returnType }} obj;
 
         return obj;
 

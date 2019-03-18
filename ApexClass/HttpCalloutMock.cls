@@ -1,3 +1,6 @@
+/**
+ * @author: {{ author }}
+ */
 @isTest
 public class {{ api_name }} implements HttpCalloutMock {
 
@@ -6,14 +9,14 @@ public class {{ api_name }} implements HttpCalloutMock {
     protected String body;
     protected Map<String, String> responseHeaders;
 
-    public {{ api_name }}(Integer code, String status, String body, Map<String, String> responseHeaders) {
+    public {{ api_name }} (Integer code, String status, String body, Map<String, String> responseHeaders) {
         this.code = code;
         this.status = status;
         this.body = body;
         this.responseHeaders = responseHeaders;
     }
 
-    public HTTPResponse respond(HTTPRequest req) {
+    public HTTPResponse respond (HTTPRequest req) {
 
         HttpResponse res = new HttpResponse();
         for (String key : this.responseHeaders.keySet()) {

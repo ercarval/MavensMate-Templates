@@ -1,12 +1,13 @@
+/**
+ * @author: {{ author }}
+ */
 global class {{ api_name }} {
 
-	webservice String parameter { get; set; }
-
-	public {{ api_name }}() {
-		this.parameter = 'value';
+	public {{ api_name }} () {
 	}
 
-	webservice static String serviceName(){
+	webservice
+    static String serviceName(){
 		return '';
 	}
 }

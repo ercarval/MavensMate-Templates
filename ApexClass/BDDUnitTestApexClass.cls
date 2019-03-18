@@ -1,9 +1,11 @@
+/**
+ * @author: {{ author }}
+ */
 @isTest
-private class {{ api_name }}
-{
+private class {{ api_name }} {
+
 	@isTest
-	static void itShould()
-	{
+	static void itShould() {
 		// Given
 
 
@@ -13,4 +15,5 @@ private class {{ api_name }}
 		// Then
 
 	}
+
 }
