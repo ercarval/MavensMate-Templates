@@ -3,7 +3,7 @@
  */
 public with sharing class {{ api_name }} {
 
-	private final {{ object_type }} {{ object_attribute_name }};
+    public final {{ object_type }} {{ object_attribute_name }} {get;set;}
 
     public {{ api_name }} (ApexPages.StandardController stdController) {
         this.{{ object_attribute_name }} = ({{ object_type }}) stdController.getRecord();
