@@ -168,6 +168,11 @@
                     "default":"Account"
                 },
                 {
+                    "name":"object_type",
+                    "description":"SObject and Custom Object name",
+                    "default":"Account"
+                },
+                {
                     "name":"author",
                     "description": "Class Author"
                 }
