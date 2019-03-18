@@ -163,7 +163,7 @@
             "author":"Eduardo Ribeiro de Carvalho",
             "params":[
                 {
-                    "name":"className",
+                    "name":"api_name",
                     "description":"Part of class name, all classes ends of Filter",
                     "default":"Account"
                 },
@@ -346,8 +346,8 @@
             "params":[
                 {
                     "name":"api_name",
-                    "description":"Apex Class API Name",
-                    "default":"MyApexClass"
+                    "description":"Apex Class API Name end of TH",
+                    "default":"AccountTH"
                 },
                 {
                     "name":"author",
