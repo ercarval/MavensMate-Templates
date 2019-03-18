@@ -157,6 +157,23 @@
             ]
         },
         {
+            "name":"Filter",
+            "file_name":"Filter.cls",
+            "description":"Implementing Filter Pattern extending Filter class",
+            "author":"Eduardo Ribeiro de Carvalho",
+            "params":[
+                {
+                    "name":"className",
+                    "description":"Part of class name, all classes ends of Filter",
+                    "default":"Account"
+                },
+                {
+                    "name":"author",
+                    "description": "Class Author"
+                }
+            ]
+        },
+        {
             "name":"Custom Iterator",
             "file_name":"CustomIterator.cls",
             "description":"A custom iterator class",
@@ -222,6 +239,23 @@
                     "name":"api_name",
                     "description":"Apex Class API Name",
                     "default":"MyQueueableApexClass"
+                },
+                {
+                    "name":"author",
+                    "description": "Class Author"
+                }
+            ]
+        },
+        {
+            "name":"Repository",
+            "file_name":"Repository.cls",
+            "description":"Implements Repository Pattern extending AbstractRepository",
+            "author":"Eduardo Ribeiro de Carvalho",
+            "params":[
+                {
+                    "name":"entityName",
+                    "description":"Part of class name, all classes ends of Repository",
+                    "default":"Account"
                 },
                 {
                     "name":"author",
