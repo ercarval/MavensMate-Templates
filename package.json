@@ -179,6 +179,28 @@
             ]
         },
         {
+            "name":"FixtureFactory",
+            "file_name":"FixtureFactory.cls",
+            "description":"Implementing FixtureFactory Test Pattern",
+            "author":"Eduardo Ribeiro de Carvalho",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Part of class name, all classes ends of Filter",
+                    "default":"Account"
+                },
+                {
+                    "name":"object_name",
+                    "description":"SObject and Custom Object name",
+                    "default":"Account"
+                },
+                {
+                    "name":"author",
+                    "description": "Class Author"
+                }
+            ]
+        },
+        {
             "name":"Custom Iterator",
             "file_name":"CustomIterator.cls",
             "description":"A custom iterator class",
@@ -269,6 +291,33 @@
             ]
         },
         {
+            "name":"RestOutboundService",
+            "file_name":"RestOutboundService.cls",
+            "description":"Implementing AbstractRestOutboundService part of Integration Framework classes for sinchronous request",
+            "author":"Eduardo Ribeiro de Carvalho",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Part of class name, all classes ends of Filter",
+                    "default":"Account"
+                },
+                {
+                    "name":"author",
+                    "description": "Class Author"
+                },
+                {
+                    "name":"response_type",
+                    "description": "Response Type class, example: SapAccountInfo, WazeAddress",
+                    "default":"SapAccountInfo"
+                },
+                {
+                    "name":"operation_name",
+                    "description": "Method name, example: getCustomerDetailedInfo, createOrder, checkPriceAndAvailability",
+                    "default":"getCustomerDetailedInfo"
+                }
+            ]
+        },
+        {
             "name":"RestResource",
             "file_name":"RestResourceApexClass.cls",
             "description":"A RestResource class",
@@ -313,6 +362,28 @@
             ]
         },
         {
+            "name":"SchedulableApexClassIntoFixedInterval",
+            "file_name":"SchedulableApexClassIntoFixedInterval.cls",
+            "description":"A Schedulable class using Fixed execution interval in minutes",
+            "author":"Eduardo Ribeiro de Carvalho",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Part of class name, all classes ends of Filter",
+                    "default":"Account"
+                },
+                {
+                    "name":"author",
+                    "description": "Class Author"
+                },
+                {
+                    "name":"interval_in_minutes",
+                    "description": "Interval value in minutes like 10 , 5 , 30",
+                    "default":"30"
+                }
+            ]
+        },
+        {
             "name":"SelectorClass",
             "file_name":"SelectorClass.cls",
             "description":"Apex Enterprise Patterns Selector Class",
@@ -344,6 +415,23 @@
             ]
         },
         {
+            "name":"Transformer",
+            "file_name":"Transformer.cls",
+            "description":"A Transformer class as a part of Integration Framework",
+            "author":"Eduardo Ribeiro de Carvalho",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Part of class name, all classes ends of Filter",
+                    "default":"Account"
+                },
+                {
+                    "name":"author",
+                    "description": "Class Author"
+                }
+            ]
+        },
+        {
             "name":"Trigger Handler",
             "file_name":"TriggerHandler.cls",
             "description":"An Interface that handles Trigger actions",
@@ -363,8 +451,8 @@
                     "description": "Object Api Name"
                 },
                 {
-                    "name":"objectNamePlural",
-                    "description": "Object Name into plural from"
+                    "name":"objectNamePlural ",
+                    "description": "Object Name into plural from ex: Accounts, Contacts, Invoices, create old and new Attributes"
                 }
             ]
         },
@@ -382,6 +470,48 @@
                 {
                     "name":"author",
                     "description": "Class Author"
+                }
+            ]
+        },
+        {
+            "name":"UpdateableOutboundCommand",
+            "file_name":"UpdateableOutboundCommand.cls",
+            "description":"Implementing AbstractUpdateableOutboundCommand class part of Integration Framework classes for assychronous request",
+            "author":"Eduardo Ribeiro de Carvalho",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Part of class name, all classes ends of Filter",
+                    "default":"Account"
+                },
+                {
+                    "name":"author",
+                    "description": "Class Author"
+                },
+                {
+                    "name":"payload_type",
+                    "description": "JSON Payload Stored into Queue, using this to deserialize this to Object type",
+                    "default":"List<Account>"
+                },
+                {
+                    "name":"payload_type_attribute_name",
+                    "description": "Payload Type Attribute name, like accounts, contact, orderDetail",
+                    "default":"accounts"
+                },
+                {
+                    "name":"response_type",
+                    "description": "Response Type class, example: SapAccountInfo, WazeAddress",
+                    "default":"SapAccountInfo"
+                },
+                {
+                    "name":"response_type_attribute_name",
+                    "description": "Response Type attribute name, example: sapAccountInfo, wazeAddress",
+                    "default":"sapAccountInfo"
+                },
+                {
+                    "name":"repository_type",
+                    "description": "Implemetation of AbstractRepository class, used to store or retrieve data from Salesforce",
+                    "default":"AccountRepository"
                 }
             ]
         },
