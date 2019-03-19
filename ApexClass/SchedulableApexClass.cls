@@ -1,5 +1,5 @@
 /**
- * @author: {{ author }}
+ * @author: {{ author }} - TOPi
  */
 global class {{ api_name }} implements Schedulable {
 	global void execute(SchedulableContext sc) {

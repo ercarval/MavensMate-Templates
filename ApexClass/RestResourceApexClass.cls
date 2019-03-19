@@ -1,5 +1,5 @@
 /**
- * @author: {{ author }}
+ * @author: {{ author }} - TOPi
  */
 @RestResource(urlMapping='/{{ url }}')
 global with sharing class {{ api_name }}  {

@@ -1,5 +1,5 @@
 /**
- * @author: {{ author }}
+ * @author: {{ author }} - TOPi
  */
 public with sharing class {{ api_name }} extends TriggerHandler {
 

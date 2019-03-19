@@ -1,5 +1,5 @@
 /**
- * @author: {{ author }}
+ * @author: {{ author }} - TOPi
  */
 public class {{ api_name }} implements Iterator<{{ type_name }}> {
 

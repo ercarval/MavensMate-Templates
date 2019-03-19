@@ -1,5 +1,5 @@
 /**
- * @author: {{ author }}
+ * @author: {{ author }} - TOPi
  */
 @isTest
 public class {{ api_name }} implements WebServiceMock {

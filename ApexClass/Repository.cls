@@ -1,5 +1,5 @@
 /**
- * @author: {{ author }}
+ * @author: {{ author }} - TOPi
  */
 public virtual class {{ api_name }} extends AbstractRepository {
 
