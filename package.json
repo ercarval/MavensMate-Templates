@@ -186,7 +186,7 @@
             "params":[
                 {
                     "name":"api_name",
-                    "description":"Part of class name, all classes ends of Filter",
+                    "description":"Fixture class name, all classes ends of FixtureFactory",
                     "default":"Account"
                 },
                 {
@@ -298,8 +298,8 @@
             "params":[
                 {
                     "name":"api_name",
-                    "description":"Part of class name, all classes ends of Filter",
-                    "default":"Account"
+                    "description":"Class name, all classes ends of OutboundService or Service",
+                    "default":"GetSapCustomerOutboundService"
                 },
                 {
                     "name":"author",
@@ -369,7 +369,7 @@
             "params":[
                 {
                     "name":"api_name",
-                    "description":"Part of class name, all classes ends of Filter",
+                    "description":"Schedulable of class",
                     "default":"Account"
                 },
                 {
@@ -439,7 +439,7 @@
             "params":[
                 {
                     "name":"api_name",
-                    "description":"Apex Class API Name end of TH",
+                    "description":"Apex Class API Name end of TH, example AccountTH, CaseTH, ContactTH",
                     "default":"AccountTH"
                 },
                 {
@@ -481,8 +481,8 @@
             "params":[
                 {
                     "name":"api_name",
-                    "description":"Part of class name, all classes ends of Filter",
-                    "default":"Account"
+                    "description":"Class name, use part of Event Name, example: CreateSalesOrderCommand, OrderCreatedCommand",
+                    "default":"CreateSalesOrderCommand"
                 },
                 {
                     "name":"author",
