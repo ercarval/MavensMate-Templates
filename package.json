@@ -195,6 +195,11 @@
                     "default":"Account"
                 },
                 {
+                    "name":"entity_name",
+                    "description":"Entity name, used into new and create Methods, example: newContact, createEvent",
+                    "default":"Account"
+                },
+                {
                     "name":"author",
                     "description": "Class Author"
                 }
