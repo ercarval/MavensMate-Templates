@@ -456,7 +456,7 @@
                     "description": "Object Api Name"
                 },
                 {
-                    "name":"objectNamePlural ",
+                    "name":"objectNamePlural",
                     "description": "Object Name into plural from ex: Accounts, Contacts, Invoices, create old and new Attributes"
                 }
             ]
