@@ -173,6 +173,11 @@
                     "default":"Account"
                 },
                 {
+                    "name":"object_name",
+                    "description":"object_name is used into template methods like indexAccountById or indexCustomObjectByName",
+                    "default":"Account"
+                },                
+                {
                     "name":"author",
                     "description": "Class Author"
                 }
